@@ -61,7 +61,7 @@ def organize_files():
             print(f"Moved: {filename} → Other/")
             files_moved += 1
 
-    print(f"\n✅ Done! {files_moved} file(s) organized.")
+    print(f"\n Done! {files_moved} file(s) organized.")
 
 if __name__ == "__main__":
     organize_files()
